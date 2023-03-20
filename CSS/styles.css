@@ -1,0 +1,145 @@
+﻿body
+{
+    background-color:#ccc8c8;
+}
+/*=====================================================================================================NAV BAR*/
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover{
+    color: #848586;
+}
+
+.hover_mouse1:hover{
+    color: #d8d8d8;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+.dropdown-item{
+    color:grey;
+}
+
+/*=====================================================================================================First Page*/
+
+.main-iphone {
+    position: absolute;
+    right: 90px;
+    top: 150px;
+    width: 500px;
+    height: 500px;
+    rotate: -25deg;
+}
+
+hr{
+    border: none;
+    border-top: dotted 10px;
+    border-width:1rem;
+    width:8rem;
+    margin:200px auto 200px auto;
+}
+
+.first-page{
+    position:relative;
+    top: 200px;
+    left:300px;
+    margin-bottom:600px;
+    width:500px;
+}
+
+.top-h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.top-p1{
+    font-size: 2rem;
+    width:300px;
+}
+
+
+/*=====================================================================================================Second page*/
+
+.second-page {
+    
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: solid white;
+    width: 1420px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.yp14-classic {
+    position:relative;
+    font-size:1.3rem;
+    left:90px;
+}
+
+.yp14-slim {
+    position:relative;
+    left:285px;
+    font-size:1.3rem;
+    border:solid 1px;
+}
+
+.yp14-pro {
+    position: relative;
+    left: 445px;
+    font-size:1.3rem;
+    border:solid 1px;
+}
+
+.yp14-promax {
+    position: relative;
+    left:600px;
+    font-size:1.3rem;
+    border:solid 1px;
+}
+
+.figure {
+    display: float;
+    position: relative;
+    max-width: 100%;
+    width: 320px;
+    padding:70px;
+    margin-left:18px;
+    margin-right:10px;
+}
+
+.figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 10px grey;
+    border-radius:40px;
+}
+
+.figure .image-hover-classic{
+    position:absolute;
+    display:flex;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity:0;
+    transition: opacity .05s;
+    border-radius:50%;
+    box-shadow:none;
+}
+
+.figure:hover .image-hover-classic{
+    opacity: 1;
+}
+
+.figure:hover .image-main-classic{
+    transition: opacity .1s;
+    opacity: 0;
+    
+}
